@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header {
+    background-color: rgb(15, 110, 218);
+    color: aliceblue;
+    padding: 16px 0;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+header li a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article {
+    width: 30%;
+}
+
+body > img {
+    width: 100%;
+}
+.articles article img {
+    width: 100%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: blue;
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    
+}
+
+.articles article a,
+.articles article p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+section h2{
+    font-size: 32px;
+}
+
+#esports {
+    background-color: rgba(80,80,90,0.1);
+}
+
+#esports .articles article a {
+    background-color: black;
+}
+
+#esports .articles article a:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+
+#anime {
+    background-color: rgba(1,1,255,0.1);
+}
+
+#anime .articles article a {
+    background-color: blue;
+}
+
+#anime .articles article a:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#sports {
+    background-color: rgba(80,80,90,0.1);
+}
+
+#sports .articles article a {
+    background-color:  black;
+}
+
+#sports .articles article a:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#economy {
+    background-color: rgba(1,1,255,0.1);
+}
+
+#economy .articles article a {
+    background-color: blue;
+}
+
+#economy .articles article a:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
